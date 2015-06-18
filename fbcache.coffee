@@ -6,7 +6,10 @@
 #
 # Author:
 #   iamso
-#   
+#
+
+URL = "http://graph.facebook.com"
+
 module.exports = (robot) ->
 
   robot.hear /fbcache (.*)/i, (res) ->
